@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def print_formatted(number):
     width = len(bin(number)[2:])
     for i in range(1, number+1):
@@ -10,15 +9,3 @@ def print_formatted(number):
 if __name__ == '__main__':
     n = int(input())
     print_formatted(n)
-=======
-#works only on pypy3
-import re
-n = int(input())
-for _ in range(n):
-    try:
-        s = input()
-        p = re.compile(s)
-        print("True")
-    except re.error:
-        print("False")
->>>>>>> 00ae9eb (Assignments 2)

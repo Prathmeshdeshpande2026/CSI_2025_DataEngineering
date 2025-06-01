@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 if __name__ == '__main__':
 
     n = int(input())
@@ -22,14 +21,3 @@ if __name__ == '__main__':
     result = addition/len(l1)
 
     print('%.2f'% result)
-=======
-T = int(input())
-for i in range(T):
-    try:
-        a, b = map(int, input().split())
-        print(a//b)
-    except ZeroDivisionError as e:
-        print("Error Code:", e)
-    except ValueError as v:
-        print("Error Code:", v)
->>>>>>> 00ae9eb (Assignments 2)
